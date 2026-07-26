@@ -7,7 +7,7 @@ categories:
 tags:
   - 日常
   - 记录
-cover: /img/hero.png
+cover: /img/hero.img
 description: 从今天开始，把照片、文字和那些容易忘记的小事慢慢收进 diary。
 ---
 
