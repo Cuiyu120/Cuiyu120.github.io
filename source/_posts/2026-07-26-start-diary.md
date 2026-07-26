@@ -7,7 +7,7 @@ categories:
 tags:
   - 日常
   - 记录
-cover: /img/hero.jpg
+cover: /img/hero.png
 description: 从今天开始，把照片、文字和那些容易忘记的小事慢慢收进 diary。
 ---
 
@@ -15,7 +15,7 @@ description: 从今天开始，把照片、文字和那些容易忘记的小事�
 
 不一定每天都有值得讲的大事。有时候是一顿饭、一场雨、一段路，或者傍晚偶然抬头看到的天空。
 
-![淡蓝色天空下的山谷](/img/hero.jpg)
+![淡蓝色天空下的山谷](/img/hero.png)
 
 ## 为什么开始
 
