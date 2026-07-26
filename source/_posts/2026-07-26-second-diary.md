@@ -7,7 +7,7 @@ categories:
 tags:
   - 日常
   - 记录
-cover: /img/photos/20260726/豆包落泪.png
+cover: /img/photos/20260726/doubao-tears.png
 description: 前夜刷至此条文案，心中咯噔
 ---
 
@@ -15,7 +15,7 @@ description: 前夜刷至此条文案，心中咯噔
 
 可就是一条文案 却让我深夜破防。文案如图
 
-![是我舍不得你](/img/photos/20260726/文案.png)
+![是我舍不得你](/img/photos/20260726/message.png)
 
 ## 其实一切源于我执
 
