@@ -1,0 +1,233 @@
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-house
+  文章||fas fa-compass:
+    归档: /archives/ || fas fa-box-archive
+    分类: /categories/ || fas fa-folder-open
+    标签: /tags/ || fas fa-tags
+  相册: /photos/ || fas fa-camera-retro
+  关于: /about/ || fas fa-user
+
+social:
+  fab fa-github: https://github.com/Cuiyu120 || GitHub || '#24292f'
+
+favicon: /img/favicon.png
+
+avatar:
+  img: /img/avatar.png
+  effect: false
+
+disable_top_img: false
+default_top_img: /img/hero.jpg
+index_img: /img/hero.jpg
+archive_img: /img/hero.jpg
+tag_img: /img/hero.jpg
+category_img: /img/hero.jpg
+footer_img: false
+background: '#edf5f7'
+
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover:
+    - /img/hero.jpg
+
+subtitle:
+  enable: true
+  effect: false
+  source: false
+  sub:
+    - 普通日子，也值得被认真保存。
+
+index_site_info_top: 47%
+index_top_img_height: 66vh
+index_layout: 3
+index_post_content:
+  method: 2
+  length: 180
+
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+toc:
+  post: true
+  page: false
+  number: false
+  expand: false
+  style_simple: true
+  scroll_percent: true
+
+post_copyright:
+  enable: false
+
+related_post:
+  enable: true
+  limit: 3
+  date_type: created
+
+post_pagination: 1
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: false
+  custom_text: '<a href="https://commons.wikimedia.org/wiki/File:Yosemite_under_pale_blue_sky_(Unsplash).jpg" target="_blank" rel="noopener">横幅照片：Nikolay Maslov，CC0</a>'
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: false
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 认真收藏每一个普通日子。
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/Cuiyu120
+  card_announcement:
+    enable: true
+    content: 欢迎来到张雨的 diary。
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+  card_tags:
+    enable: true
+    limit: 24
+    color: false
+    orderby: name
+    order: 1
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    runtime_date: 2026/07/26
+
+readmode: true
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+rightside_scroll_percent: true
+rightside_config_animation: false
+
+search:
+  use: local_search
+  placeholder: 搜索文章
+  local_search:
+    preload: false
+    top_n_per_article: 2
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
+
+share:
+  use:
+
+comments:
+  use:
+
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+
+theme_color:
+  enable: true
+  main: '#5b9fbd'
+  paginator: '#3c819f'
+  button_hover: '#b86f62'
+  text_selection: '#78b8cc'
+  link_color: '#337b99'
+  meta_color: '#66777e'
+  hr_color: '#96c8d8'
+  code_foreground: '#8b4f45'
+  code_background: 'rgba(38, 72, 84, 0.07)'
+  toc_color: '#397f75'
+  blockquote_padding_color: '#5b9fbd'
+  blockquote_background_color: '#eef7f4'
+  scrollbar_color: '#5b9fbd'
+  meta_theme_color_light: '#edf5f7'
+  meta_theme_color_dark: '#172328'
+
+rounded_corners_ui: true
+text_align_justify: false
+mask:
+  header: true
+  footer: false
+
+display_mode: light
+enter_transitions: true
+
+font:
+  global_font_size: 16px
+  code_font_size: 14px
+  font_family: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif'
+  code_font_family: '"Cascadia Code", "SFMono-Regular", Consolas, monospace'
+
+blog_title_font:
+  font_link:
+  font_family: 'Georgia, "Songti SC", serif'
+
+lightbox: medium_zoom
+
+lazyload:
+  enable: true
+  native: true
+  field: site
+  blur: false
+
+error_404:
+  enable: true
+  subtitle: 这里暂时没有留下记录
+  background: /img/hero.jpg
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+  bottom:
+
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true
