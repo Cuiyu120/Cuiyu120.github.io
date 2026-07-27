@@ -11,6 +11,11 @@ cover: /img/photos/20260726/doubao-tears.png
 description: 前夜刷至此条文案，心中咯噔
 ---
 
+<audio controls loop preload="metadata" style="width: 100%;">
+  <source src="/media/music/known.mp3" type="audio/mpeg">
+  你的浏览器不支持音频播放。
+</audio> 
+
 我常常以为事到如今，我应该可以成熟的处理一切。
 
 可就是一条文案 却让我深夜破防。文案如图
@@ -38,3 +43,4 @@ description: 前夜刷至此条文案，心中咯噔
 ![豆包落泪](/img/photos/20260726/doubao-tears.png)
 
 我并没有因为成长而抗拒流泪，相反，真正的成长应该会因为我依然可以流泪，而更感欣慰和温柔。
+
