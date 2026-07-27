@@ -136,3 +136,70 @@ blockquote {
     grid-template-columns: 1fr;
   }
 }
+
+
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.photo-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  margin: 0;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .photo-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.auto-photo-gallery {
+  columns: 3;
+  column-gap: 12px;
+}
+
+.auto-gallery-item {
+  display: block;
+  break-inside: avoid;
+  margin-bottom: 12px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.auto-gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  transition: transform 0.25s ease;
+}
+
+.auto-gallery-item:hover img {
+  transform: scale(1.02);
+}
+
+@media (max-width: 900px) {
+  .auto-photo-gallery {
+    columns: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .auto-photo-gallery {
+    columns: 1;
+  }
+}
+
+.auto-gallery-item img {
+  cursor: zoom-in;
+}
